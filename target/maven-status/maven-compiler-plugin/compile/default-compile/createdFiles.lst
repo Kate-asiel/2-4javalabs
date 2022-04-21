@@ -2,7 +2,7 @@ iot\prjects\models\Engine.class
 iot\prjects\models\Frame.class
 iot\prjects\models\Suspension.class
 iot\prjects\models\Wheels.class
+iot\prjects\Main.class
 iot\prjects\models\Details.class
 iot\prjects\models\Body.class
-iot\prjects\models\Main.class
 iot\prjects\manager\CarDetail.class

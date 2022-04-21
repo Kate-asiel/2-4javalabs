@@ -1,6 +1,7 @@
-package iot.prjects.models;
+package iot.prjects;
 
 import iot.prjects.manager.CarDetail;
+import iot.prjects.models.*;
 
 public class Main
 {
