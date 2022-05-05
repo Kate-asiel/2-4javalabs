@@ -1,12 +1,13 @@
 package iot.prjects;
 
+import java.io.IOException;
 
-public class Main
-{
+import iot.prjects.manager.CarDetailWriter;
 
-    public static void main(String[] args)
-    {
 
+public class Main {
+    public static void main(String[] args) {
     }
 }
+
 

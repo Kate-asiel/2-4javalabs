@@ -2,8 +2,8 @@ package iot.prjects.models;
 
 import iot.prjects.manager.CarDetail;
 
-public class Details
-{
+
+public class Details {
     String name;
     private String producer;
     private String material;
@@ -12,28 +12,31 @@ public class Details
     private int serialNumber;
     private boolean isPartOfTheChassis;
 
-    public String getName()
-    {
+    public String getName() {
         return name;
     }
 
-    public boolean isPartOfTheChassis()
-    {
+    public boolean isPartOfTheChassis() {
         return isPartOfTheChassis;
     }
 
-    public String getProducer()
-    {
+    public String getProducer() {
         return producer;
     }
 
-    public int getSerialNumber()
-    {
+    public int getSerialNumber() {
         return serialNumber;
     }
 
-    public Details (String name, String producer, String material, String type, double weight, int serialNumber, boolean isPartOfTheChassis)
-    {
+    public String getHeaders() {
+        return "Name, producer, serial number";
+    }
+
+    public String toCSV() {
+        return this.getName() + ", " + this.getProducer() + ", " + this.getSerialNumber();
+    }
+
+    public Details(String name, String producer, String material, String type, double weight, int serialNumber, boolean isPartOfTheChassis) {
         this.name = name;
         this.producer = producer;
         this.material = material;
@@ -44,7 +47,8 @@ public class Details
     }
 
 
-    public Details() {}
+    public Details() {
+    }
 
     @Override
     public String toString() {
@@ -58,4 +62,5 @@ public class Details
                 ", isPartOfTheChassis=" + isPartOfTheChassis +
                 '}';
     }
+
 }
