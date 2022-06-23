@@ -1,0 +1,1 @@
+Lab3. Task: You need to create a class - Manager that will contain logic: search for parts needed to assemble the chassis. Display the result sorted by Implement the ability to sort by serial numbers of details and by country of manufacture. The implementation of sorting should provide the ability to sort both in descending and ascending order.
